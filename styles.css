@@ -1,24 +1,99 @@
-body,
 html {
-  height: 100%;
+  font-family: fantasy;
+  color: rgba(91, 30, 46, 0.904);
 }
 
-.parallax {
-  background-color: rgb(152, 195, 222);
+.background {
   background-image: url("fjellheimen.png");
-  height: 100%;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300vh;
   padding-top: 100vh;
 }
 
-.parallax-curtain {
-  background-image: url("outlander.png");
-  background-image: no-repeat;
-  height: 150vh;
+.curtain {
+  background-image: url("outland.png");
+  height: 100vh;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  min-height: 100vh;
+  background-position: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.content {
+  width: 300px;
+  position: sticky;
+  top: 40px;
+  padding: 30px 40px;
+  display: center;
+}
+
+.tab {
+  position: sticky;
+  top: 5px;
+  padding: 5px 40px;
+}
+
+.parallax {
+  background-image: url("landskap.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-top: 300px;
+}
+
+.d-curtain {
+  background: rgba(240, 240, 240, 0);
+}
+
+.blå {
+  width: 350px;
+}
+
+.rosa,
+.grønn {
+  width: 400px;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.text {
+  width: 300px;
+}
+
+h3 {
+  font-size: xx-large;
+}
+
+button {
+  background-color: rgba(255, 87, 84, 0.402);
+  border: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+.credit {
+  background-image: url("fjellheimen.png");
+  color: aliceblue;
+}
+
+a {
+  color: rgba(255, 87, 84, 0.402);
 }
