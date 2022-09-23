@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Metamorphous&family=UnifrakturMaguntia&display=swap");
+
 html {
-  font-family: fantasy;
+  font-family: "Metamorphous", cursive;
   color: rgba(91, 30, 46, 0.904);
 }
 
@@ -87,6 +89,7 @@ button {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
+  font-family: "Cinzel Decorative", cursive;
 }
 .credit {
   background-image: url(/img/fjellheimen.png);
