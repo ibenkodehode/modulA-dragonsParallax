@@ -4,7 +4,7 @@ html {
 }
 
 .background {
-  background-image: url("fjellheimen.png");
+  background-image: url(/img/fjellheimen.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,8 +14,7 @@ html {
 }
 
 .curtain {
-  background-image: url("outland.png");
-  height: 100vh;
+  background-image: url(/img/outland.png);
   top: 0;
   position: sticky;
   position: -webkit-sticky;
@@ -42,7 +41,7 @@ h1 {
 }
 
 .parallax {
-  background-image: url("landskap.png");
+  background-image: url(/img/landskap.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,7 +89,7 @@ button {
   text-decoration: none;
 }
 .credit {
-  background-image: url("fjellheimen.png");
+  background-image: url(/img/fjellheimen.png);
   color: aliceblue;
 }
 
